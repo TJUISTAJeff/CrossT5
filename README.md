@@ -47,28 +47,16 @@ To evaluation study for the performance of Matl with state-of-the-art approaches
 
 ## Datasets
 
-We used `2`  datasets, on python and java2swift respectively. 
-
-
-| Frameworks |        Tensorflow        | PyTorch  |  MXNet | CNTK | 
-| :---: |        :---:        | :---:  |  :---: | :---: |
-| Tensorflow |            -             |    175   |    152 | 123  |
-| PyTorch    |           113            |     -    |    92  | 67   |
-
-| class |        ArrayList        | LinkedList  |  HashSet | HashMap| Calendar|Collections|Arrays|String|Interger|Throwable|Thread|Class|File|PrintStream|InputStream|
-| :---: |        :---:        | :---:  |  :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
-| num |        17        | 23  |  8 | 12 |22|15|7|41|28|5|11|11|29|23|3|
-|Total|255|
-
+In total, we collected Compara which contains 736 data cases. All the data are uploaded into the "Datasets" directory. More detail can be found in our paper.
 
 ## Reproducibility
 
-MATL have 2 phase: pretrain and finetune, the code, pretrained model and vectors pretrained by GraphCodeBert have been published.
+The pretrained models will be also uploaded soon.
 
 ### Environment
 
 **Note:** 
-- We attach great importance to the reproducibility of `MATL`. Here we list some of the key packages to reproduce our results. Also please refer to the `requirements.txt` file for package installation.
+- We attach great importance to the reproducibility of `CrossT5`. Here we list some of the key packages to reproduce our results. Also please refer to the `requirements.txt` file for package installation.
 
 **Key Packages:**
 
