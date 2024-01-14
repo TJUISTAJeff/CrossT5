@@ -5,3 +5,7 @@ This is the dataset ComPara, which is used for evaluating the effectiveness of C
 In which, ''tf_and_torch.pkl'' is the corrosponding context and API parameters in TensorFlow and PyTorch frameworks.
 
 And ''tf_para_doc.pkl'' & ''torch_para_doc.pkl'' is the document of parameters with the same order with ''tf_and_torch.pkl''.
+
+## Script
+
+The ''prepare_tf_and_torch_as_input.py'' script is used for preparing data input for CrossT5.
