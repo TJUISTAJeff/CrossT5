@@ -11,9 +11,9 @@ This is the basic implementation of our project: **CrossT5: complete mapped API 
 
 ## Description
 
-`Matl` is a novel appraoch which leverages the transfer learning technique to learn the semantic embeddings of source code implementations from large-scale open-source repositories and then transfers the learned model to facilitate the mapping of APIs.
-Firstly, we conduct an extensive study to explore their performance for mapping APIs in dynamic-typed languages. `MATL` is inspired by the insights of the study. In particular, the source code implementations of APIs can significantly improve the effectiveness of API mapping.
-To evaluation study for the performance of Matl with state-of-the-art approaches demonstrate that Matl is indeed effective as it improves the state-of-the-art approach.
+`CrossT5` is  an automated technology that utilizes pre- and post-mapped API parameter documentation along with pre-mapped parameter sequences for parameter completion.
+
+Specifically, CrossT5 consists of two components: cross-attention mechanism and feature fusion. It is capable of capturing information gaps between traditional methods and trained language models in this context, thereby achieving improved predictive performance.
 
 ## Project Structure
 
